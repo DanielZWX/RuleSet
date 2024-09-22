@@ -8,6 +8,7 @@ global-client-fingerprint: chrome
 profile:
   store-selected: true
   store-fake-ip: true
+
 sniffer:
   enable: true
   parse-pure-ip: true
@@ -28,6 +29,7 @@ sniffer:
   skip-domain:
     - "Mijia Cloud"
     - dlg.io.mi.com
+
 tun:
   enable: true
   stack: mixed
@@ -35,6 +37,7 @@ tun:
     - 'any:53'
   auto-route: true
   auto-detect-interface: true
+
 dns:
   enable: true
   listen: :1053
@@ -63,6 +66,7 @@ dns:
   proxy-server-nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+
 rule-providers:
   my-reject:
     type: http
@@ -148,6 +152,7 @@ rule-providers:
     path: ./ruleset/telegram_ip.yaml
     interval: 86400
     url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/telegram.yaml"
+
 rules:
   - RULE-SET,my-reject,REJECT
   - RULE-SET,my-direct,DIRECT
