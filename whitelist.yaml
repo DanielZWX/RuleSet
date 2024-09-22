@@ -71,7 +71,7 @@ rule-providers:
     format: yaml
     path: ./ruleset/my-reject.yaml
     interval: 86400
-    url: "https://fastly.jsdelivr.net/gh/DanielZWX/RuleSet/my_reject.yaml"
+    url: "http://192.168.3.4/clash/config/my_reject.yaml"
   my-direct:
     type: http
     behavior: classical
