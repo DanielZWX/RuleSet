@@ -63,7 +63,6 @@ dns:
   proxy-server-nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-
 rule-providers:
   my-reject:
     type: http
@@ -71,21 +70,21 @@ rule-providers:
     format: yaml
     path: ./ruleset/my-reject.yaml
     interval: 86400
-    url: "http://192.168.3.4/clash/config/my_reject.yaml"
+    url: "https://fastly.jsdelivr.net/gh/DanielZWX/RuleSet/my_reject.yaml"
   my-direct:
     type: http
     behavior: classical
     format: yaml
     path: ./ruleset/my-direct.yaml
     interval: 86400
-    url: "http://192.168.3.4/clash/config/my_direct.yaml"
+    url: "https://fastly.jsdelivr.net/gh/DanielZWX/RuleSet/my_direct.yaml"
   my-proxy:
     type: http
     behavior: classical
     format: yaml
     path: ./ruleset/my-proxy.yaml
     interval: 86400
-    url: "http://192.168.3.4/clash/config/my_proxy.yaml"
+    url: "https://fastly.jsdelivr.net/gh/DanielZWX/RuleSet/my_proxy.yaml"
   category-ads-all:
     type: http
     behavior: domain
