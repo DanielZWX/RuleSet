@@ -1,10 +1,14 @@
 payload:
+  #影视APP
   - PROCESS-NAME,zyplayer
   - PROCESS-NAME,zyplayer Helper
   - PROCESS-NAME,uzVideo
+  #我的域名
   - DOMAIN-SUFFIX,danielzwx.nyc.mn
+  #影视网站
   - DOMAIN-SUFFIX,ncat21.com
   - DOMAIN-SUFFIX,vidhub.tv
   - DOMAIN-SUFFIX,wogg.net
+  #Macked
   - DOMAIN-SUFFIX,macked.app
   - DOMAIN-SUFFIX,dl.macked.homes
