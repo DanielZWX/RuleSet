@@ -3,12 +3,14 @@ payload:
   - PROCESS-NAME,zyplayer
   - PROCESS-NAME,zyplayer Helper
   - PROCESS-NAME,uzVideo
+  - PROCESS-NAME,APTV
   #我的域名
   - DOMAIN-SUFFIX,danielzwx.nyc.mn
   #影视网站
   - DOMAIN-SUFFIX,ncat21.com
   - DOMAIN-SUFFIX,vidhub.tv
   - DOMAIN-SUFFIX,wogg.net
+  - DOMAIN-SUFFIX,subaibaiys.com
   #Macked
   - DOMAIN-SUFFIX,macked.app
   - DOMAIN-SUFFIX,dl.macked.homes
