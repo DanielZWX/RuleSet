@@ -3,6 +3,7 @@ payload:
   - PROCESS-NAME,zyplayer
   - PROCESS-NAME,zyplayer Helper
   - PROCESS-NAME,uzVideo
+  - PROCESS-NAME,APTV
   #我的域名
   - DOMAIN-SUFFIX,danielzwx.nyc.mn
   #影视网站
