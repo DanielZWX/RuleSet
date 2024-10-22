@@ -1,7 +1,16 @@
 payload:
-  - DOMAIN,mihomo.party
-  - DOMAIN,jable.tv
-  - DOMAIN,surrit.com
-  - DOMAIN,v2rayse.com
-  - DOMAIN,wiki.metacubex.one
-  - DOMAIN,lxmusic.toside.cn
+  #mihomo-party wiki
+  - DOMAIN-SUFFIX,mihomo.party
+  #18+
+  - DOMAIN-SUFFIX,jable.tv
+  - DOMAIN-SUFFIX,surrit.com
+  - DOMAIN-SUFFIX,javrate.com
+  #
+  - DOMAIN-SUFFIX,v2rayse.com
+  #mihomo doc
+  - DOMAIN-SUFFIX,wiki.metacubex.one
+  #洛雪音乐
+  - DOMAIN-SUFFIX,lxmusic.toside.cn
+  #素白白
+  - DOMAIN-SUFFIX,subaibaiys.com
+  - DOMAIN-SUFFIX,wangchuanxin.top

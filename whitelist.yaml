@@ -154,8 +154,8 @@ rule-providers:
     url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/telegram.mrs"
 rules:
   - RULE-SET,my-reject,REJECT
-  - RULE-SET,my-direct,DIRECT
   - RULE-SET,my-proxy,Proxy
+  - RULE-SET,my-direct,DIRECT
   - RULE-SET,category-ads-all,REJECT
   - RULE-SET,private_domain,DIRECT
   - RULE-SET,cn_domain,DIRECT
