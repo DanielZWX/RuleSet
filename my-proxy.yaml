@@ -12,3 +12,5 @@ payload:
   - DOMAIN-SUFFIX,wiki.metacubex.one
   #洛雪音乐
   - DOMAIN-SUFFIX,lxmusic.toside.cn
+  #themoviedb
+  - DOMAIN-SUFFIX,themoviedb.org
