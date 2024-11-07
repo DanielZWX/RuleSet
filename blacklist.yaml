@@ -71,21 +71,21 @@ rule-providers:
     format: yaml
     path: ./ruleset/my-reject.yaml
     interval: 86400
-    url: "https://fastly.jsdelivr.net/gh/DanielZWX/RuleSet/my-reject.yaml"
+    url: "http://hdy.helloky.us.kg/DSM_Web/clash/config/my-reject.yaml"
   my-direct:
     type: http
     behavior: classical
     format: yaml
     path: ./ruleset/my-direct.yaml
     interval: 86400
-    url: "https://fastly.jsdelivr.net/gh/DanielZWX/RuleSet/my-direct.yaml"
+    url: "http://hdy.helloky.us.kg/DSM_Web/clash/config/my-direct.yaml"
   my-proxy:
     type: http
     behavior: classical
     format: yaml
     path: ./ruleset/my-proxy.yaml
     interval: 86400
-    url: "https://fastly.jsdelivr.net/gh/DanielZWX/RuleSet/my-proxy.yaml"
+    url: "http://hdy.helloky.us.kg/DSM_Web/clash/config/my-proxy.yaml"
   category-ads-all:
     type: http
     behavior: domain
