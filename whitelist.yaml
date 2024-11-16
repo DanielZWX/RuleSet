@@ -71,21 +71,21 @@ rule-providers:
     format: yaml
     path: ./ruleset/my-reject.yaml
     interval: 86400
-    url: "http://hdy.helloky.us.kg/DSM_Web/clash/config/my-reject.yaml"
+    url: "http://web.helloky.us.kg/clash/config/my-reject.yaml"
   my-direct:
     type: http
     behavior: classical
     format: yaml
     path: ./ruleset/my-direct.yaml
     interval: 86400
-    url: "http://hdy.helloky.us.kg/DSM_Web/clash/config/my-direct.yaml"
+    url: "http://web.helloky.us.kg/clash/config/my-direct.yaml"
   my-proxy:
     type: http
     behavior: classical
     format: yaml
     path: ./ruleset/my-proxy.yaml
     interval: 86400
-    url: "http://hdy.helloky.us.kg/DSM_Web/clash/config/my-proxy.yaml"
+    url: "http://web.helloky.us.kg/clash/config/my-proxy.yaml"
   category-ads-all:
     type: http
     behavior: domain
@@ -121,6 +121,13 @@ rule-providers:
     path: ./ruleset/apple.mrs
     interval: 86400
     url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple.mrs"
+  docker:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./ruleset/docker.mrs
+    interval: 86400
+    url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/docker.mrs"
   gfw:
     type: http
     behavior: domain
@@ -150,13 +157,14 @@ rule-providers:
     interval: 86400
     url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/telegram.mrs"
 rules:
-  - RULE-SET,my-reject,REJECT
+  #- RULE-SET,my-reject,REJECT
   - RULE-SET,my-proxy,Proxy
   - RULE-SET,my-direct,DIRECT
-  - RULE-SET,category-ads-all,REJECT
+  #- RULE-SET,category-ads-all,REJECT
   - RULE-SET,private_domain,DIRECT
   - RULE-SET,cn_domain,DIRECT
   - RULE-SET,apple,DIRECT
+  - RULE-SET,docker,Proxy
   - RULE-SET,gfw,Proxy
   - RULE-SET,private_ip,DIRECT,no-resolve
   - RULE-SET,telegram_ip,Proxy,no-resolve
